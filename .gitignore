@@ -1,0 +1,6 @@
+*.docx
+*.png
+
+exercise_1/test/
+exercise_3/code/*.csv
+exercise_4/code/Kasperi_Keski-Loppi_Exercise_4_output.pdf
