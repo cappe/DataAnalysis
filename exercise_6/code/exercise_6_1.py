@@ -101,7 +101,7 @@ def main():
 				result = getResponse(neighbors)
 
 				predictions.append(result)
-				actual_labels.append(testInstance[1])
+				actual_labels.append(testInstance[-1])
 
 			c_index = Cindex(actual_labels, predictions)
 			c_indexes.append(c_index)
